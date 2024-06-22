@@ -4,7 +4,17 @@
 -->
 <html>
 	<head>
-		<title>Ideal Consig</title>
+		<title>Ideal Consig - Empréstimo para negativados</title>
+		<meta name="title" content="Empréstimo para negativados!">
+		<meta name="description" content="Faça seu empréstimo online e rápido com a IdealConsig! Empréstimo na conta de luz, no cartão de crédito e pelo FGTS. Simule agora, é rápido e fácil.">
+		<meta name="keywords" content="empréstimo para negativados, empréstimo na conta de luz, empréstimo no cartão de crédito, empréstimo no fgts">
+		<meta name="robots" content="index, follow">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="language" content="Portuguese">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
