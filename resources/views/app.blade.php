@@ -75,9 +75,8 @@
 			<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
-					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					<li><a href="https://www.instagram.com/Idealconsig_" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=5574999595120" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
 				</ul>
 				<ul class="copyright">
 					<li>&copy; Ideal Consig | <?php echo date('Y'); ?></li>
