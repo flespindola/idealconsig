@@ -73,19 +73,20 @@ class SimulationController extends Controller
 
     private function sendMessage($message)
     {
+        dd("A ser enviado: ", $message);
         // Send message
         $sid    = "AC2352cf754d9e88164bdbd915ec88e575";
         $token  = "4323c2c66dae556443be10741a6b1b54";
-        $twilio = new Client($sid, $token);
+        // $twilio = new Client($sid, $token);
 
         $oneris = "+5574988376872";
-        $response = $twilio->messages
-        ->create($oneris, // to
-          array(
-            "from" => "+19787235664",
-            "body" => $message
-          )
-        );
+        // $response = $twilio->messages
+        // ->create($oneris, // to
+        //   array(
+        //     "from" => "+19787235664",
+        //     "body" => $message
+        //   )
+        // );
     
         // $response = $twilio->messages
         //   ->create("whatsapp:+5574988376872", // to
@@ -95,6 +96,6 @@ class SimulationController extends Controller
         //     ]
         // );
 
-        dd($response);
+        // dd($response);
     }
 }
