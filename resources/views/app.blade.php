@@ -5,6 +5,21 @@
 <html>
 	<head>		
 		<title>Ideal Consig - Empréstimo para negativados</title>
+		<!-- Facebook Meta Tags -->
+		<meta property="og:url" content="https://idealconsig.com">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Ideal Consig - Empréstimo para negativados">
+		<meta property="og:description" content="Faça seu empréstimo online e rápido com a IdealConsig! Empréstimo na conta de luz, no cartão de crédito e pelo FGTS. Simule agora, é rápido e fácil.">
+		<meta property="og:image" content="https://idealconsig.com/images/fundo.png">
+
+		<!-- Twitter Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="twitter:domain" content="idealconsig.com">
+		<meta property="twitter:url" content="https://idealconsig.com">
+		<meta name="twitter:title" content="Ideal Consig - Empréstimo para negativados">
+		<meta name="twitter:description" content="Faça seu empréstimo online e rápido com a IdealConsig! Empréstimo na conta de luz, no cartão de crédito e pelo FGTS. Simule agora, é rápido e fácil.">
+		<meta name="twitter:image" content="https://idealconsig.com/images/fundo.png">
+
 		<meta name="title" content="Empréstimo para negativados!">
 		<meta name="description" content="Faça seu empréstimo online e rápido com a IdealConsig! Empréstimo na conta de luz, no cartão de crédito e pelo FGTS. Simule agora, é rápido e fácil.">
 		<meta name="keywords" content="empréstimo para negativados, empréstimo na conta de luz, empréstimo no cartão de crédito, empréstimo no fgts">
