@@ -1,0 +1,9 @@
+@import 'bootstrap';
+
+#main {
+    min-height: 75vh;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
