@@ -79,8 +79,9 @@ class SimulationController extends Controller
              	'subject' => 'Simulação de Empréstimo',
               	'text'	=> $message
             ));
+            return redirect()->back()->with('success', 'Solicitação enviada com sucesso! Em breve um dos nossos consultores entrará em contato.');
         } catch (\Exception $e) {
-            return false;
+            return redirect()->back()->with('error', 'Houve um erro ao enviar a solicitação. Por favor, tente novamente.');
         }
     }
 }

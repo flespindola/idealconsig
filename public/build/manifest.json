@@ -1,6 +1,6 @@
 {
   "resources/js/Pages/Simulation.tsx": {
-    "file": "assets/Simulation-bca15947.js",
+    "file": "assets/Simulation-5b6d0424.js",
     "imports": [
       "resources/js/app.tsx"
     ],
@@ -8,17 +8,17 @@
     "src": "resources/js/Pages/Simulation.tsx"
   },
   "resources/js/app.css": {
-    "file": "assets/app-742a4b7d.css",
+    "file": "assets/app-c90b5d8a.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.tsx": {
     "css": [
-      "assets/app-742a4b7d.css"
+      "assets/app-c90b5d8a.css"
     ],
     "dynamicImports": [
       "resources/js/Pages/Simulation.tsx"
     ],
-    "file": "assets/app-0ceaf854.js",
+    "file": "assets/app-b3e12809.js",
     "isEntry": true,
     "src": "resources/js/app.tsx"
   }

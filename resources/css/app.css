@@ -7,3 +7,19 @@
 .margin-auto {
     margin: 0 auto;
 }
+
+.alert {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.alert-success {
+    background-color: rgb(1, 192, 23) !important;
+    color: white;
+}
+
+.alert-error {
+    background-color: rgb(255, 0, 0) !important;
+    color: white;
+}

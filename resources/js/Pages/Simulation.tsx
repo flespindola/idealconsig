@@ -47,8 +47,11 @@ export default function Simulation() {
             <div className="d-flex justify-content-center align-items-center justify-content-between">
                 <section style={{ maxWidth: '700px' }} className="margin-auto">
                     <h4 className="color-white" style={{ textAlign: 'center', marginBottom: '2rem' }}>Simule agora</h4>
-                    {(flash as any).message && (
-                        <div className="alert">{(flash as any).message}</div>
+                    {(flash as any).success && (
+                        <div className="alert alert-success">{(flash as any).success}</div>
+                    )}
+                    {(flash as any).error && (
+                        <div className="alert alert-error">{(flash as any).error}</div>
                     )}
                     <form method="post" onSubmit={handleSubmit} className="form-block">
                         <div className="row gtr-uniform">
