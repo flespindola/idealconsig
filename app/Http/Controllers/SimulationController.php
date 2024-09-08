@@ -75,7 +75,7 @@ class SimulationController extends Controller
             $domain = "idealconsig.com";
             $result = $mg->messages()->send($domain, array(
             	'from'	=> 'Simulação de Empréstimo <no-reply@idealconsig.com>',
-            	'to'	=> 'fles94@hotmail.com',
+            	'to'	=> 'correspondente@idealconsig.com',
              	'subject' => 'Simulação de Empréstimo',
               	'text'	=> $message
             ));
