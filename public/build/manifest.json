@@ -1,6 +1,6 @@
 {
   "resources/js/Pages/Simulation.tsx": {
-    "file": "assets/Simulation-d8d142ec.js",
+    "file": "assets/Simulation-bca15947.js",
     "imports": [
       "resources/js/app.tsx"
     ],
@@ -18,7 +18,7 @@
     "dynamicImports": [
       "resources/js/Pages/Simulation.tsx"
     ],
-    "file": "assets/app-a5cee9de.js",
+    "file": "assets/app-0ceaf854.js",
     "isEntry": true,
     "src": "resources/js/app.tsx"
   }

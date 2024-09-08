@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head, useForm } from '@inertiajs/react';
+import { Head, useForm, usePage } from '@inertiajs/react';
 // import { PageProps } from '@/types';
 import { useMask } from '@react-input/mask';
 
@@ -22,6 +22,7 @@ export default function Simulation() {
     });
     const wappMask = useMask({ mask: '(__) _____-____', replacement: { _: /\d/ } });
     const cpfMask = useMask({ mask: '___.___.___-__', replacement: { _: /\d/ } });
+    const { flash } = usePage().props
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -46,6 +47,9 @@ export default function Simulation() {
             <div className="d-flex justify-content-center align-items-center justify-content-between">
                 <section style={{ maxWidth: '700px' }} className="margin-auto">
                     <h4 className="color-white" style={{ textAlign: 'center', marginBottom: '2rem' }}>Simule agora</h4>
+                    {(flash as any).message && (
+                        <div className="alert">{(flash as any).message}</div>
+                    )}
                     <form method="post" onSubmit={handleSubmit} className="form-block">
                         <div className="row gtr-uniform">
                             <div className="col-4 col-12-xsmall">
