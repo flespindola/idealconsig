@@ -240,7 +240,7 @@
 			</div>
 
 			<div id="faleNoWhatsapp" class="float-w" style="bottom: 20px; left: 20px;">
-				<a href="https://api.whatsapp.com/send?phone=5581997470969" target="blank" title="Whatsapp">
+				<a href="https://api.whatsapp.com/send?phone=5574999595120" target="blank" title="Whatsapp">
 					<i class="fab fa-whatsapp" aria-hidden="true"></i>
 				</a>
 			</div>
